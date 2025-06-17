@@ -1,0 +1,161 @@
+/* 
+ * Lumen Alta Template - Responsive Stylesheet
+ * Responsive design for all device sizes
+ */
+
+/* ===== MEDIA QUERIES ===== */
+
+/* Large Screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Medium Screens (992px to 1199px) */
+@media screen and (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 2.25rem;
+    }
+    
+    .digital-playground {
+        font-size: 3.5rem;
+    }
+    
+    .value-heading h2 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Small Screens (768px to 991px) */
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    .digital-playground {
+        font-size: 3rem;
+    }
+    
+    .value-proposition .container {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    .solutions-header {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    .footer-main {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+    
+    .cookie-consent .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .cookie-buttons {
+        margin-top: var(--spacing-sm);
+    }
+}
+
+/* Extra Small Screens (576px to 767px) */
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    
+    section {
+        padding: var(--spacing-md) 0;
+    }
+    
+    h1 {
+        font-size: 2.25rem;
+    }
+    
+    h2 {
+        font-size: 1.75rem;
+    }
+    
+    .digital-playground {
+        font-size: 2.5rem;
+    }
+    
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .insights-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-sm);
+    }
+    
+    .case-studies-cta {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+    
+    .footer-nav {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+        text-align: center;
+    }
+}
+
+/* Mobile Screens (Up to 575px) */
+@media screen and (max-width: 575px) {
+    .container {
+        padding: 0 var(--spacing-sm);
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .digital-playground {
+        font-size: 2rem;
+    }
+    
+    .logo-grid {
+        gap: var(--spacing-sm);
+    }
+    
+    .logo-item {
+        flex: 0 0 120px;
+    }
+    
+    .slide-image {
+        height: 300px;
+    }
+}

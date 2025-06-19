@@ -3,12 +3,6 @@
 ## Overview
 This template is inspired by the Lumen Alta website design, featuring a modern, sleek aesthetic suitable for digital transformation and technology companies. The template includes responsive design, interactive elements, and a sophisticated color scheme that can be easily customized for your business needs.
 
-## Demo
-Here's a quick look at the web application:
-
-![Demo](images/placeholders/full.png)
-
-
 ## Features
 - Modern, professional design with clean typography
 - Fully responsive layout for all device sizes
